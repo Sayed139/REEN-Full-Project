@@ -1,0 +1,328 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+}
+i, p{
+    color: #506a85;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+}
+a, a:hover{
+    text-decoration: none;
+    color: #506a85;
+}
+ul, ol{
+    list-style: none;
+    margin: 0px;
+}
+
+/* ----- Header section css codes start ----- */
+.header-upper {
+    background: #f5f7fa;
+    border-bottom: 1px solid #f0f0f0;
+}
+.header-upper-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header-upper-left-content{
+    padding: 10px 10px 10px 0px;
+}
+.header-upper-left-content a i{
+    padding: 0px 10px 0px 0px;
+}
+.header-upper-left-content a span{
+    padding-right: 10px;
+}
+.header-social-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.header-upper-right-content ul li{
+    padding: 10px;
+}
+.header-bottom{
+    padding: 30px;
+}
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-bar{
+    padding-top: 10px;
+}
+.nav-selectors{
+    display: flex;
+}
+.nav-selectors li{
+    padding: 0px 15px;
+}
+.nav-selectors li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.search-icon{
+    padding-top: 15px;
+}
+
+/* ----- Banner section CSS codes start ----- */
+.carousel{
+    position: relative;
+}
+.header-and-caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 68%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 999;
+}
+.header-and-caption h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+}
+.header-and-caption p{
+    color: #a3b1bf;
+    font-size: 16px;
+}
+.header-and-caption .btn{
+    background: #00bc9c;
+    margin-top: 65px;
+    padding: 10px 45px;
+    border-radius: 3px;
+}
+.header-and-caption .btn:hover, .btn:focus{
+    background: transparent;
+    border: 1px solid #00bc9c;
+}
+.header-and-caption .btn a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* ----- Feature section CSS codes start ----- */
+.feature-section{
+    position: relative;
+    padding-top: 125px;
+}
+.feature-section h1{
+    padding-bottom: 40px;
+    color: #506a85;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 700;
+}
+.feature-section p{
+    color: #73879c;
+    padding-bottom: 80px;
+}
+.feature-inner{
+    display: flex;
+}
+.feature-inner i{
+    color: #02bd9d;
+    font-size: 50px;
+    margin-right: 20px;
+}
+.feature-inner h4{
+    color: #506a85;
+    font-weight: 600;
+}
+.feature-inner p{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    color: #73879c;
+}
+
+/* ----- Portfolio section CSS codes start ----- */
+.portfolio{
+    background: #f2f5f7;
+}
+.portfolio-inner{
+    position: relative;
+    padding-top: 100px;
+}
+.portfolio-inner h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #506a85;
+    text-transform: none;
+}
+.portfolio-inner p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #73879c;
+}
+.portfolio-card{
+    position: relative;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.portfolio-card img{
+    width: 100%;
+}
+.portfolio-card-inner{
+    border-bottom: 2px solid #f0f0f0;
+}
+.portfolio-card-inner h5{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #506a85;
+}
+.portfolio-card-inner p{
+    text-align: center;
+    color: #73879c;
+}
+.owl-carousel-items{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #00bc9c;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background: #506a85;
+}
+.owl-theme .owl-nav{
+    visibility: hidden;
+}
+
+/* ----- Work-with-us section CSS codes start ----- */
+.work-with-us{
+    position: relative;
+    padding-top: 80px;
+}
+.work-with-us h1{
+    color: #506a85;
+    text-transform: none;
+    font-size: 40px;
+    font-weight: 600;
+}
+.work-with-us p{
+    color: #73879c;
+    margin: 0px;
+    padding: 35px 0px;
+}
+.work-with-us .btn{
+    margin-bottom: 120px;
+    margin-top: 0px;
+    background: #00bc9c;
+    border: none;
+    border-bottom: 2px solid #33bea7;
+    padding: 10px 35px;
+    text-transform: uppercase;
+}
+.work-with-us .btn:hover{
+    color: #00bc9c;
+}
+
+/* ----- Footer section CSS codes start ----- */
+.pre-footer{
+    background: #2f4052;
+    height: 350px;
+}
+.footer-coulmn{
+    margin-top: 70px;
+}
+.footer-coulmn h4{
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+.footer-coulmn p, i, a, a:hover{
+    color: #a3b1bf;
+}
+.n1 .footer-text{
+    margin-top: 20px;
+}
+.n1 a i{
+    padding-left: 10px;
+}
+.n2 .r1{
+    width: 110%;
+}
+.n2 .r1 img{
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+.n2 .r2{
+    width: 110%;
+}
+.n2 .r2 img{
+    margin-bottom: 5px;
+    margin-right: 3px;
+}
+.contact-info ul li i{
+    padding-right: 15px;
+}
+.contact-info ul li .fa-envelope-o{
+    padding-right: 8px;
+}
+.subscribe{
+    width: 103%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0px;
+    background: #4e5c6c;
+    border-radius: 3px;
+}
+.subscribe input{
+    background: transparent;
+    border: none;
+}
+.subscribe input::placeholder{
+    color: #a3b1bf;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+.subscribe input:focus{
+    outline: none;
+}
+.subscribe .btn{
+    background: #00bc9c;
+    padding: 5px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid #109e89;
+}
+.main-footer{
+    background: #283645;
+    color: #707e8c;
+}
+.main-footer p{
+    margin: 30px 0px;
+    color: #707e8c;
+}
+.footer-list-items{
+    margin: 30px 0px;
+}
+.footer-list-items ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list-items ul li a{
+    text-transform: capitalize;
+    color: #707e8c;
+}
+.footer-list-items ul li{
+    padding: 0px 10px;
+}
